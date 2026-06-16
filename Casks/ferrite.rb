@@ -1,11 +1,11 @@
 cask "ferrite" do
-  version "0.2.7"
+  version "0.3.0"
 
   if Hardware::CPU.arm?
-    sha256 "34a53c3e5140a4fd2633fbb368448fb87431efa3a8855624c19d96b58e6fc888"
+    sha256 "b895a98931b2e37bca0fb2f0adb7fe5f81e1dd79d0e535387c92206f013e1e09"
     url "https://github.com/OlaProeis/Ferrite/releases/download/v#{version}/ferrite-macos-arm64.dmg"
   else
-    sha256 "9a69f537b0ab84c095f16d112e70dc43a4569e3080ef823abe17b1daf4e84682"
+    sha256 "9af614bbb8c4002f17f0b524e1c298b4944c30aa8e91ff71ba0c2deed1a58bab"
     url "https://github.com/OlaProeis/Ferrite/releases/download/v#{version}/ferrite-macos-x64.dmg"
   end
 
